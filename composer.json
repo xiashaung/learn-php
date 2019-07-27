@@ -9,13 +9,15 @@
             "email": "996190264@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
     "autoload": {
         "files": [
             "src/helpers.php"
         ],
         "psr-4": {
-            "Xiashuang/Support": "src"
+            "Xiashuang\\Support\\": "src"
         }
     }
 }
