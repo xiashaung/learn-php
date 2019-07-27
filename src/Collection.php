@@ -1,5 +1,5 @@
 <?php
-namespace Learn;
+namespace Xiashuang\Support;
 /**
  * 基础数组筛选函数
  *

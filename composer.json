@@ -1,13 +1,21 @@
 {
-    "require": {
-        "phpunit/phpunit": "^7.5"
-    },
+    "name": "xiashuang/support",
+    "description": "support collection tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "夏爽",
+            "email": "996190264@qq.com"
+        }
+    ],
+    "require": {},
     "autoload": {
         "files": [
             "src/helpers.php"
         ],
         "psr-4": {
-            "Learn\\":"src"
+            "Xiashuang/Support": "src"
         }
     }
 }
